@@ -8,7 +8,7 @@ Fully customisable.
 Demo
 ----
 
-![alt tag]()
+![alt tag](https://raw.githubusercontent.com/cemolcay/YSTutorialViewController/master/demo.gif)
 
 
 Install
