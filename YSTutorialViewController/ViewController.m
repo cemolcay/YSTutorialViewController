@@ -7,21 +7,63 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "YSTutorialPageSerializer.h"
 
 @implementation ViewController
 
+#pragma  mark - Lifecycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.tutorialPages = [[NSMutableArray alloc] initWithArray:[YSTutorialPageSerializer tutorialPageViewsWithJSONFile:@"tutorialPages"]];
+    
+    self.tutorialViewController = [[YSTutorialViewController alloc] init];
+    [self.tutorialViewController setDataSource:self];
+    [self.tutorialViewController setDelegate:self];
+    [self.tutorialViewController reloadTutorialViewController];
+    [self.view addSubview:self.tutorialViewController.view];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - YSTutorialViewControllerDataSource
+
+- (NSInteger)numberOfPagesInTutorialViewController:(YSTutorialViewController *)viewController {
+    return self.tutorialPages.count;
+}
+
+- (YSTutorialPageView *)tutorialViewController:(YSTutorialViewController *)viewController tutorialPageViewForIndex:(NSInteger)index {
+    return (YSTutorialPageView *)self.tutorialPages[index];
+}
+
+
+#pragma mark - YSTutorialViewControllerDelegate
+
+- (UIImage *)tutorialViewControllerBackgroundImageForIndex:(NSInteger)index {
+    
+    if (index == 0) {
+        return [UIImage imageNamed:@"tut1Background.png"];
+    } else if (index == 1) {
+        return [UIImage imageNamed:@"tut2Background.png"];
+    } else if (index == 2) {
+        return [UIImage imageNamed:@"tut3Background.png"];
+    }
+    
+    return nil;
+}
+
+- (void)tutorialViewControllerDidPressedCloseButton:(YSTutorialViewController *)viewController {
+    [viewController dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)tutorialViewController:(YSTutorialViewController *)viewController didScrollToPageAtIndex:(NSInteger)index {
+
+}
+
+
+#pragma mark - StatusBar
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 @end

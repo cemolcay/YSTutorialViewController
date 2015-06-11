@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>50551570-782C-4F52-BA2D-C498744A4407</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>196DF096B9980134D10CC6D8215D30AB42D59616</key>
+		<string>https://github.com/cemolcay/YSTutorialViewController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YSTutorialViewController.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>196DF096B9980134D10CC6D8215D30AB42D59616</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cemolcay/YSTutorialViewController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>196DF096B9980134D10CC6D8215D30AB42D59616</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>196DF096B9980134D10CC6D8215D30AB42D59616</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YSTutorialViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>

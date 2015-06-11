@@ -1,0 +1,23 @@
+[
+ {
+     "imageName":"tut1Image.png",
+     "bottomViewColor":"183,28,28",
+     "iconName":"tut1Icon.png",
+     "title":"Lorem",
+     "text":"Lorem ipsum dolor sit amed simply dummy text here about search function"
+ },
+ {
+     "imageName":"tut1Image.png",
+     "bottomViewColor":"246,85,29",
+     "iconName":"tut2Icon.png",
+     "title":"Lorem",
+     "text":"Lorem ipsum dolor sit amed simply dummy text here about search function text here about search function"
+ },
+ {
+     "imageName":"tut1Image.png",
+     "bottomViewColor":"17,91,153",
+     "iconName":"tut3Icon.png",
+     "title":"Lorem",
+     "text":"Lorem ipsum dolor sit amed simply dummy text here about search function sit amed simply dummy text here about search function"
+ }
+]

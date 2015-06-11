@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B24966A01B29A7E900CDAD43 /* YSTutorialPageSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = B249669F1B29A7E900CDAD43 /* YSTutorialPageSerializer.m */; };
+		B24966A21B29AAF800CDAD43 /* tutorialPages.json in Resources */ = {isa = PBXBuildFile; fileRef = B24966A11B29AAF800CDAD43 /* tutorialPages.json */; };
+		B24966CA1B29D3AC00CDAD43 /* tut1Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966BC1B29D3AC00CDAD43 /* tut1Background@2x.png */; };
+		B24966CB1B29D3AC00CDAD43 /* tut1Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966BD1B29D3AC00CDAD43 /* tut1Background@3x.png */; };
+		B24966CC1B29D3AC00CDAD43 /* tut1icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966BE1B29D3AC00CDAD43 /* tut1icon@2x.png */; };
+		B24966CD1B29D3AC00CDAD43 /* tut1icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966BF1B29D3AC00CDAD43 /* tut1icon@3x.png */; };
+		B24966CE1B29D3AC00CDAD43 /* tut1Image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C01B29D3AC00CDAD43 /* tut1Image@2x.png */; };
+		B24966CF1B29D3AC00CDAD43 /* tut1Image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C11B29D3AC00CDAD43 /* tut1Image@3x.png */; };
+		B24966D01B29D3AC00CDAD43 /* tut2Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C21B29D3AC00CDAD43 /* tut2Background@2x.png */; };
+		B24966D11B29D3AC00CDAD43 /* tut2Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C31B29D3AC00CDAD43 /* tut2Background@3x.png */; };
+		B24966D21B29D3AC00CDAD43 /* tut2Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C41B29D3AC00CDAD43 /* tut2Icon@2x.png */; };
+		B24966D31B29D3AC00CDAD43 /* tut2Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C51B29D3AC00CDAD43 /* tut2Icon@3x.png */; };
+		B24966D41B29D3AC00CDAD43 /* tut3Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C61B29D3AC00CDAD43 /* tut3Background@2x.png */; };
+		B24966D51B29D3AC00CDAD43 /* tut3Background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C71B29D3AC00CDAD43 /* tut3Background@3x.png */; };
+		B24966D61B29D3AC00CDAD43 /* tut3Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C81B29D3AC00CDAD43 /* tut3Icon@2x.png */; };
+		B24966D71B29D3AC00CDAD43 /* tut3Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B24966C91B29D3AC00CDAD43 /* tut3Icon@3x.png */; };
+		B2861EDF1B297F0E00E028C0 /* YSTutorialViewControllerAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = B2861EDE1B297F0E00E028C0 /* YSTutorialViewControllerAppearance.m */; };
+		B2861EE21B298CAD00E028C0 /* YSTutorialViewControllerCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2861EE11B298CAD00E028C0 /* YSTutorialViewControllerCloseButton.m */; };
 		B2A9FF7E1B297A3300D8096D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9FF7D1B297A3300D8096D /* main.m */; };
 		B2A9FF811B297A3300D8096D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9FF801B297A3300D8096D /* AppDelegate.m */; };
 		B2A9FF841B297A3300D8096D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9FF831B297A3300D8096D /* ViewController.m */; };
@@ -14,6 +32,9 @@
 		B2A9FF891B297A3300D8096D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A9FF881B297A3300D8096D /* Images.xcassets */; };
 		B2A9FF8C1B297A3300D8096D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A9FF8A1B297A3300D8096D /* LaunchScreen.xib */; };
 		B2A9FF981B297A3300D8096D /* YSTutorialViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9FF971B297A3300D8096D /* YSTutorialViewControllerTests.m */; };
+		B2A9FFA41B297A5E00D8096D /* YSTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9FFA31B297A5E00D8096D /* YSTutorialViewController.m */; };
+		B2A9FFA71B297A7200D8096D /* YSTutorialPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9FFA61B297A7200D8096D /* YSTutorialPageView.m */; };
+		B2A9FFB31B297D2700D8096D /* YSTutorialPageBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9FFB21B297D2700D8096D /* YSTutorialPageBottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +48,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B249669E1B29A7E900CDAD43 /* YSTutorialPageSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTutorialPageSerializer.h; sourceTree = "<group>"; };
+		B249669F1B29A7E900CDAD43 /* YSTutorialPageSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTutorialPageSerializer.m; sourceTree = "<group>"; };
+		B24966A11B29AAF800CDAD43 /* tutorialPages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorialPages.json; sourceTree = "<group>"; };
+		B24966BC1B29D3AC00CDAD43 /* tut1Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut1Background@2x.png"; sourceTree = "<group>"; };
+		B24966BD1B29D3AC00CDAD43 /* tut1Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut1Background@3x.png"; sourceTree = "<group>"; };
+		B24966BE1B29D3AC00CDAD43 /* tut1icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut1icon@2x.png"; sourceTree = "<group>"; };
+		B24966BF1B29D3AC00CDAD43 /* tut1icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut1icon@3x.png"; sourceTree = "<group>"; };
+		B24966C01B29D3AC00CDAD43 /* tut1Image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut1Image@2x.png"; sourceTree = "<group>"; };
+		B24966C11B29D3AC00CDAD43 /* tut1Image@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut1Image@3x.png"; sourceTree = "<group>"; };
+		B24966C21B29D3AC00CDAD43 /* tut2Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut2Background@2x.png"; sourceTree = "<group>"; };
+		B24966C31B29D3AC00CDAD43 /* tut2Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut2Background@3x.png"; sourceTree = "<group>"; };
+		B24966C41B29D3AC00CDAD43 /* tut2Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut2Icon@2x.png"; sourceTree = "<group>"; };
+		B24966C51B29D3AC00CDAD43 /* tut2Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut2Icon@3x.png"; sourceTree = "<group>"; };
+		B24966C61B29D3AC00CDAD43 /* tut3Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut3Background@2x.png"; sourceTree = "<group>"; };
+		B24966C71B29D3AC00CDAD43 /* tut3Background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut3Background@3x.png"; sourceTree = "<group>"; };
+		B24966C81B29D3AC00CDAD43 /* tut3Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut3Icon@2x.png"; sourceTree = "<group>"; };
+		B24966C91B29D3AC00CDAD43 /* tut3Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tut3Icon@3x.png"; sourceTree = "<group>"; };
+		B2861EDE1B297F0E00E028C0 /* YSTutorialViewControllerAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTutorialViewControllerAppearance.m; sourceTree = "<group>"; };
+		B2861EE01B298CAD00E028C0 /* YSTutorialViewControllerCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTutorialViewControllerCloseButton.h; sourceTree = "<group>"; };
+		B2861EE11B298CAD00E028C0 /* YSTutorialViewControllerCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTutorialViewControllerCloseButton.m; sourceTree = "<group>"; };
 		B2A9FF781B297A3300D8096D /* YSTutorialViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSTutorialViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A9FF7C1B297A3300D8096D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A9FF7D1B297A3300D8096D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +81,13 @@
 		B2A9FF911B297A3300D8096D /* YSTutorialViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSTutorialViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A9FF961B297A3300D8096D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A9FF971B297A3300D8096D /* YSTutorialViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSTutorialViewControllerTests.m; sourceTree = "<group>"; };
+		B2A9FFA21B297A5E00D8096D /* YSTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTutorialViewController.h; sourceTree = "<group>"; };
+		B2A9FFA31B297A5E00D8096D /* YSTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTutorialViewController.m; sourceTree = "<group>"; };
+		B2A9FFA51B297A7200D8096D /* YSTutorialPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTutorialPageView.h; sourceTree = "<group>"; };
+		B2A9FFA61B297A7200D8096D /* YSTutorialPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTutorialPageView.m; sourceTree = "<group>"; };
+		B2A9FFA81B297A8800D8096D /* YSTutorialViewControllerAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTutorialViewControllerAppearance.h; sourceTree = "<group>"; };
+		B2A9FFB11B297D2700D8096D /* YSTutorialPageBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTutorialPageBottomView.h; sourceTree = "<group>"; };
+		B2A9FFB21B297D2700D8096D /* YSTutorialPageBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTutorialPageBottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +108,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B24966BB1B29D3AC00CDAD43 /* TutorialAssets */ = {
+			isa = PBXGroup;
+			children = (
+				B24966BC1B29D3AC00CDAD43 /* tut1Background@2x.png */,
+				B24966BD1B29D3AC00CDAD43 /* tut1Background@3x.png */,
+				B24966BE1B29D3AC00CDAD43 /* tut1icon@2x.png */,
+				B24966BF1B29D3AC00CDAD43 /* tut1icon@3x.png */,
+				B24966C01B29D3AC00CDAD43 /* tut1Image@2x.png */,
+				B24966C11B29D3AC00CDAD43 /* tut1Image@3x.png */,
+				B24966C21B29D3AC00CDAD43 /* tut2Background@2x.png */,
+				B24966C31B29D3AC00CDAD43 /* tut2Background@3x.png */,
+				B24966C41B29D3AC00CDAD43 /* tut2Icon@2x.png */,
+				B24966C51B29D3AC00CDAD43 /* tut2Icon@3x.png */,
+				B24966C61B29D3AC00CDAD43 /* tut3Background@2x.png */,
+				B24966C71B29D3AC00CDAD43 /* tut3Background@3x.png */,
+				B24966C81B29D3AC00CDAD43 /* tut3Icon@2x.png */,
+				B24966C91B29D3AC00CDAD43 /* tut3Icon@3x.png */,
+			);
+			path = TutorialAssets;
+			sourceTree = "<group>";
+		};
 		B2A9FF6F1B297A3300D8096D = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +150,13 @@
 		B2A9FF7A1B297A3300D8096D /* YSTutorialViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B24966BB1B29D3AC00CDAD43 /* TutorialAssets */,
+				B2A9FFA11B297A5000D8096D /* YSTutorialViewController */,
 				B2A9FF7F1B297A3300D8096D /* AppDelegate.h */,
 				B2A9FF801B297A3300D8096D /* AppDelegate.m */,
 				B2A9FF821B297A3300D8096D /* ViewController.h */,
 				B2A9FF831B297A3300D8096D /* ViewController.m */,
-				B2A9FF851B297A3300D8096D /* Main.storyboard */,
-				B2A9FF881B297A3300D8096D /* Images.xcassets */,
-				B2A9FF8A1B297A3300D8096D /* LaunchScreen.xib */,
+				B24966A11B29AAF800CDAD43 /* tutorialPages.json */,
 				B2A9FF7B1B297A3300D8096D /* Supporting Files */,
 			);
 			path = YSTutorialViewController;
@@ -96,6 +165,9 @@
 		B2A9FF7B1B297A3300D8096D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B2A9FF851B297A3300D8096D /* Main.storyboard */,
+				B2A9FF881B297A3300D8096D /* Images.xcassets */,
+				B2A9FF8A1B297A3300D8096D /* LaunchScreen.xib */,
 				B2A9FF7C1B297A3300D8096D /* Info.plist */,
 				B2A9FF7D1B297A3300D8096D /* main.m */,
 			);
@@ -117,6 +189,25 @@
 				B2A9FF961B297A3300D8096D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2A9FFA11B297A5000D8096D /* YSTutorialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2A9FFA21B297A5E00D8096D /* YSTutorialViewController.h */,
+				B2A9FFA31B297A5E00D8096D /* YSTutorialViewController.m */,
+				B2A9FFA51B297A7200D8096D /* YSTutorialPageView.h */,
+				B2A9FFA61B297A7200D8096D /* YSTutorialPageView.m */,
+				B2A9FFB11B297D2700D8096D /* YSTutorialPageBottomView.h */,
+				B2A9FFB21B297D2700D8096D /* YSTutorialPageBottomView.m */,
+				B2A9FFA81B297A8800D8096D /* YSTutorialViewControllerAppearance.h */,
+				B2861EDE1B297F0E00E028C0 /* YSTutorialViewControllerAppearance.m */,
+				B2861EE01B298CAD00E028C0 /* YSTutorialViewControllerCloseButton.h */,
+				B2861EE11B298CAD00E028C0 /* YSTutorialViewControllerCloseButton.m */,
+				B249669E1B29A7E900CDAD43 /* YSTutorialPageSerializer.h */,
+				B249669F1B29A7E900CDAD43 /* YSTutorialPageSerializer.m */,
+			);
+			path = YSTutorialViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +290,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B24966CE1B29D3AC00CDAD43 /* tut1Image@2x.png in Resources */,
+				B24966D01B29D3AC00CDAD43 /* tut2Background@2x.png in Resources */,
+				B24966CF1B29D3AC00CDAD43 /* tut1Image@3x.png in Resources */,
+				B24966D61B29D3AC00CDAD43 /* tut3Icon@2x.png in Resources */,
+				B24966D51B29D3AC00CDAD43 /* tut3Background@3x.png in Resources */,
+				B24966D41B29D3AC00CDAD43 /* tut3Background@2x.png in Resources */,
+				B24966CC1B29D3AC00CDAD43 /* tut1icon@2x.png in Resources */,
+				B24966CA1B29D3AC00CDAD43 /* tut1Background@2x.png in Resources */,
+				B24966CB1B29D3AC00CDAD43 /* tut1Background@3x.png in Resources */,
+				B24966D11B29D3AC00CDAD43 /* tut2Background@3x.png in Resources */,
 				B2A9FF871B297A3300D8096D /* Main.storyboard in Resources */,
+				B24966CD1B29D3AC00CDAD43 /* tut1icon@3x.png in Resources */,
 				B2A9FF8C1B297A3300D8096D /* LaunchScreen.xib in Resources */,
 				B2A9FF891B297A3300D8096D /* Images.xcassets in Resources */,
+				B24966D31B29D3AC00CDAD43 /* tut2Icon@3x.png in Resources */,
+				B24966A21B29AAF800CDAD43 /* tutorialPages.json in Resources */,
+				B24966D71B29D3AC00CDAD43 /* tut3Icon@3x.png in Resources */,
+				B24966D21B29D3AC00CDAD43 /* tut2Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A9FFA71B297A7200D8096D /* YSTutorialPageView.m in Sources */,
+				B2861EE21B298CAD00E028C0 /* YSTutorialViewControllerCloseButton.m in Sources */,
+				B2A9FFA41B297A5E00D8096D /* YSTutorialViewController.m in Sources */,
+				B2A9FFB31B297D2700D8096D /* YSTutorialPageBottomView.m in Sources */,
 				B2A9FF841B297A3300D8096D /* ViewController.m in Sources */,
 				B2A9FF811B297A3300D8096D /* AppDelegate.m in Sources */,
+				B2861EDF1B297F0E00E028C0 /* YSTutorialViewControllerAppearance.m in Sources */,
+				B24966A01B29A7E900CDAD43 /* YSTutorialPageSerializer.m in Sources */,
 				B2A9FF7E1B297A3300D8096D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +530,7 @@
 				B2A9FF9D1B297A3300D8096D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2A9FF9E1B297A3300D8096D /* Build configuration list for PBXNativeTarget "YSTutorialViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +539,7 @@
 				B2A9FFA01B297A3300D8096D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "YSTutorialViewController.h"
 
+@interface ViewController : UIViewController <YSTutorialViewControllerDataSource, YSTutorialViewControllerDelegate>
+
+@property (nonatomic, strong) NSMutableArray *tutorialPages;
+@property (nonatomic, strong) YSTutorialViewController *tutorialViewController;
 
 @end
 
