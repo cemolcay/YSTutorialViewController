@@ -19,6 +19,7 @@
         backgroundImageViewOverlayColor:(UIColor *)overlayColor
                        closeButtonColor:(UIColor *)closeButtonColor
                    closeButtonLineWidth:(CGFloat)closeButtonLineWidth
+                        closeButtonSize:(CGSize)closeButtonSize
            tutorialPageBottomViewHeight:(CGFloat)height {
     
     if ((self = [super init])) {
@@ -37,6 +38,7 @@
         
         self.closeButtonColor = closeButtonColor;
         self.closeButtonLineWidth = closeButtonLineWidth;
+        self.closeButtonSize = closeButtonSize;
     }
     return self;
 }
@@ -52,6 +54,7 @@
             backgroundImageViewOverlayColor:[UIColor blackColor]
             closeButtonColor: [UIColor whiteColor]
             closeButtonLineWidth: 1
+            closeButtonSize:CGSizeMake(20.0, 20.0)
             tutorialPageBottomViewHeight:200];
 }
 
