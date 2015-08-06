@@ -18,8 +18,9 @@ typedef void(^YSTutorialViewControllerCloseButtonAction)(void);
 
 @property (nonatomic, strong) UIColor *color;
 @property (nonatomic, assign) CGFloat lineWidth;
+@property (nonatomic, assign) CGSize size;
 
-- (instancetype)initWithColor:(UIColor *)color lineWidth:(CGFloat)lineWidth action:(YSTutorialViewControllerCloseButtonAction)action;
+- (instancetype)initWithColor:(UIColor *)color lineWidth:(CGFloat)lineWidth size:(CGSize)size action:(YSTutorialViewControllerCloseButtonAction)action;
 - (void)draw;
 
 @end

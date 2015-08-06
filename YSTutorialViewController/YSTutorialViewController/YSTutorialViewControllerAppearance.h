@@ -24,6 +24,7 @@
 
 @property (nonatomic, strong) UIColor *closeButtonColor;
 @property (nonatomic, assign) CGFloat closeButtonLineWidth;
+@property (nonatomic, assign) CGSize closeButtonSize;
 
 - (instancetype)initWithTitleLabelColor: (UIColor *)titleLabelColor
                          titleLabelFont: (UIFont *)titleLabelFont
@@ -34,6 +35,7 @@
         backgroundImageViewOverlayColor: (UIColor *)overlayColor
                        closeButtonColor: (UIColor *)closeButtonColor
                    closeButtonLineWidth: (CGFloat)closeButtonLineWidth
+                        closeButtonSize: (CGSize)closeButtonSize
           tutorialPageBottomViewHeight : (CGFloat)height;
 
 + (YSTutorialViewControllerAppearance *)defaultAppearance;

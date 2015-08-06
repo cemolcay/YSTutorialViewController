@@ -126,6 +126,7 @@
         self.closeButton = [[YSTutorialViewControllerCloseButton alloc]
                             initWithColor:self.appearance.closeButtonColor
                             lineWidth:self.appearance.closeButtonLineWidth
+                            size:self.appearance.closeButtonSize
                             action:^{
                                 [weakSelf.delegate tutorialViewControllerDidPressedCloseButton:weakSelf];
                             }];
