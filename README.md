@@ -18,7 +18,7 @@ Install
 
 Copy & paste `YSTutorialViewController` folder into your project
 
-### Cocoapods
+### CocoaPods
 
 ``` ruby
 pod 'YSTutorialViewController'
